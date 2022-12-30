@@ -13,10 +13,3 @@ Stable_Diffusion_15_default:
   height: 512
   vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
   default: true
-Anything_v3_default:
-  weights: models/ldm/stable-diffusion-v1/Anything-V3.0-pruned.ckpt
-  description: Cool anime model
-  config: configs/stable-diffusion/v1-inference.yaml
-  width: 512
-  height: 512
-  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
