@@ -1,6 +1,6 @@
 # invoke-ai-gui-colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peaashmeter/invoke-ai-gui-colab/blob/main/invoke_ai_gui_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/krisztianpinter/invoke-ai-gui-colab/blob/main/invoke_ai_gui_colab.ipynb)
 
 :ru:  Этот код позволяет запускать веб-интерфейс [Invoke ai](https://github.com/invoke-ai/InvokeAI) в Google Colab. В процессе установки автоматически подгружается аниме-модель [AnythingV3](https://huggingface.co/Linaqruf/anything-v3.0).
 
