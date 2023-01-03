@@ -13,3 +13,17 @@ Stable_Diffusion_15_default:
   height: 512
   vae: home/models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
   default: true
+SeekArtMega_v1_ckpt:
+  weights: models/ldm/stable-diffusion-v1/seekArtMega_v1-ckpt.ckpt
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-recommended.ckpt
+SeekArtMega_v1_safetensors:
+  weights: models/ldm/stable-diffusion-v1/seekArtMega_v1-safetensors.safetensors
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-recommended.ckpt
