@@ -6,10 +6,10 @@
 # and the width and height of the images it
 # was trained on.
 Stable_Diffusion_15_default:
-  weights: models/ldm/stable-diffusion-v1/v1-5-pruned-emaonly.ckpt
+  weights: home/models/ldm/stable-diffusion-v1/v1-5-pruned-emaonly.ckpt
   description: Stable Diffusion 1.5
   config: configs/stable-diffusion/v1-inference.yaml
   width: 512
   height: 512
-  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+  vae: home/models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
   default: true
