@@ -13,13 +13,6 @@ Stable_Diffusion_15_default:
   height: 512
   vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
   default: true
-Stable_Diffusion_14:
-  weights: models/ldm/stable-diffusion-v1/sd-v1-4.ckpt
-  description: Stable Diffusion 1.4
-  config: configs/stable-diffusion/v1-inference.yaml
-  width: 512
-  height: 512
-  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
 SeekArtMega_v1:
   weights: models/ldm/stable-diffusion-v1/seekArtMega_v1-ckpt.ckpt
   description: Cool anime model
