@@ -27,3 +27,10 @@ openjourney_v4:
   width: 512
   height: 512
   vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+trinart_characters_19_2m:
+  weights: models/ldm/stable-diffusion-v1/trinart_characters_it4_v1.ckpt
+  description: trinart_characters_19.2m_stable_diffusion_v1 is a stable diffusion v1-based model trained by roughly 19.2M anime/manga style images (pre-rolled augmented images included) plus final finetuning by about 50,000 images. This model seeks for a sweet spot between artistic style versatility and anatomical quality within the given model spec of SDv1
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/autoencoder_fix_kl-f8-trinart_characters.ckpt
