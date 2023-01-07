@@ -34,3 +34,10 @@ trinart_characters_19_2m:
   width: 512
   height: 512
   vae: models/ldm/stable-diffusion-v1/autoencoder_fix_kl-f8-trinart_characters.ckpt
+anything_v30:
+  weights: models/ldm/stable-diffusion-v1/Anything-V3.0-pruned-fp16.ckpt
+  description: This model is intended to produce high-quality, highly detailed anime style with just a few prompts. Like other anime-style Stable Diffusion models, it also supports danbooru tags to generate images.
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/Anything-V3.0.vae.pt
