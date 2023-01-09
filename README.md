@@ -9,4 +9,7 @@
 ### Google Colab for Invoke Ai, using the [Openjourney](https://huggingface.co/prompthero/openjourney) model
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_openjourney_v4.ipynb)
 
+### Google Colab for Invoke Ai, using the [Seek.art MEGA v1](https://huggingface.co/coreco/seek.art_MEGA) model
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_SeekArtMega_v1.ipynb)
+
 It's a modified version of [pinterkrisztian](https://github.com/pinterkrisztian/invoke-ai-gui-colab)'s notebook, it uses [stable_diffusion 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5).
