@@ -1,0 +1,15 @@
+# This file describes the alternative machine learning modelsv1
+# available to InvokeAI script.
+#
+# To add a new model, follow the examples below. Each
+# model requires a model config file, a weights file,
+# and the width and height of the images it
+# was trained on.
+trinart_characters_19_2m:
+  weights: models/ldm/stable-diffusion-v1/trinart_characters_it4_v1.ckpt
+  description: trinart_characters_19.2m_stable_diffusion_v1 is a stable diffusion v1-based model trained by roughly 19.2M anime/manga style images (pre-rolled augmented images included) plus final finetuning by about 50,000 images. This model seeks for a sweet spot between artistic style versatility and anatomical quality within the given model spec of SDv1
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/autoencoder_fix_kl-f8-trinart_characters.ckpt
+  default: true
