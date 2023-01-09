@@ -1,0 +1,15 @@
+# This file describes the alternative machine learning modelsv1
+# available to InvokeAI script.
+#
+# To add a new model, follow the examples below. Each
+# model requires a model config file, a weights file,
+# and the width and height of the images it
+# was trained on.
+anything_v3_0:
+  weights: models/ldm/stable-diffusion-v1/Anything-V3.0-pruned-fp16.ckpt
+  description: This model is intended to produce high-quality, highly detailed anime style with just a few prompts. Like other anime-style Stable Diffusion models, it also supports danbooru tags to generate images.
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/Anything-V3.0.vae.pt
+  default: true
