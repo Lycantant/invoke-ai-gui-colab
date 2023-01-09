@@ -1,0 +1,15 @@
+# This file describes the alternative machine learning modelsv1
+# available to InvokeAI script.
+#
+# To add a new model, follow the examples below. Each
+# model requires a model config file, a weights file,
+# and the width and height of the images it
+# was trained on.
+SeekArtMega_v1:
+  weights: models/ldm/stable-diffusion-v1/seekArtMega_v1-ckpt.ckpt
+  description: Cool anime model
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+  default: true
