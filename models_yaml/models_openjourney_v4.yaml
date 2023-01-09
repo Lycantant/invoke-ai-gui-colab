@@ -1,0 +1,15 @@
+# This file describes the alternative machine learning modelsv1
+# available to InvokeAI script.
+#
+# To add a new model, follow the examples below. Each
+# model requires a model config file, a weights file,
+# and the width and height of the images it
+# was trained on.
+openjourney_v4:
+  weights: models/ldm/stable-diffusion-v1/mdjrny-v4.ckpt
+  description: Openjourney is an open source Stable Diffusion fine tuned model on Midjourney v4 images, by PromptHero. Use prompt 'mdjrny-v4 style'
+  config: configs/stable-diffusion/v1-inference.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/vae-ft-mse-840000-ema-pruned.ckpt
+  default: true
