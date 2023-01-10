@@ -1,0 +1,15 @@
+# This file describes the alternative machine learning modelsv1
+# available to InvokeAI script.
+#
+# To add a new model, follow the examples below. Each
+# model requires a model config file, a weights file,
+# and the width and height of the images it
+# was trained on.
+waifu_diffusion_v1_4:
+  weights: models/ldm/stable-diffusion-v1/wd-1-4-anime_e1.ckpt
+  description: The Waifu Diffusion 1.4 Anime model is a Stable Diffusion v2 model that has been finetuned from Stable Diffusion v2.1 Base. The data used for finetuning Waifu Diffusion 1.4 Anime was 5,468,025 text-image samples that had been downloaded through an image board that provides high-quality tagging and original sources to the artworks themselves that are uploaded to the site.
+  config: configs/stable-diffusion/wd-1-4-anime_e1.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/kl-f8-anime2.ckpt
+  default: true
