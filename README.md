@@ -1,7 +1,7 @@
 ### Google Colab for Invoke Ai, using the [Anything v3](https://huggingface.co/Linaqruf/anything-v3.0) model
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_anything_v3.ipynb)
 
-### Google Colab for Invoke Ai, using the [Daifu Diffusion v1.4](https://huggingface.co/hakurei/waifu-diffusion-v1-4) model
+### ~~Google Colab for Invoke Ai, using the [Waifu Diffusion v1.4](https://huggingface.co/hakurei/waifu-diffusion-v1-4) model~~ ERROR!! DONT USE
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_waifu_diffusion_v1_4.ipynb)
 
 ### Google Colab for Invoke Ai, using the [trinart_characters_19_2m (v1)](https://huggingface.co/naclbit/trinart_characters_19.2m_stable_diffusion_v1) model
