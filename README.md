@@ -21,7 +21,7 @@
   In the above statement, the words `not really cool` will be ignored by Stable Diffusion.
 2. **[Prompt Syntax Features](https://invoke-ai.github.io/InvokeAI/features/PROMPTS/#prompt-syntax-features)**
     1. **[Attention weighting](https://invoke-ai.github.io/InvokeAI/features/PROMPTS/#attention-weighting)** <br>
-    Append a word or phrase with `-` or `+`, or a weight between `0` and `2` (`1`=default), to decrease or increase "attention" <br> (= a mix of per-token CFG weighting multiplier and, for `-`, a weighted blend with the prompt without the term). <br>
+    Append a word or phrase with `-` or `+`, or a weight between `0` and `2` (`1`=default), to decrease or increase "attention" (= a mix of per-token CFG weighting multiplier and, for `-`, a weighted blend with the prompt without the term). <br>
     `a tall thin man picking apricots` = normal. <br>
     `a tall thin man picking apricots+` = more apricots. <br>
     `a tall thin man picking apricots++` = more and more apricots. <br>
