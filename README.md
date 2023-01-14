@@ -13,6 +13,9 @@
 ### Google Colab for Invoke Ai, using the [Seek.art MEGA v1](https://huggingface.co/coreco/seek.art_MEGA) model
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_SeekArtMega_v1.ipynb)
 
+### Google Colab for Invoke Ai, using the [ElyOrangeMix](https://huggingface.co/coreco/seek.art_MEGA) model
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_elyOrangemix.ipynb)
+
 ---
 ### [InvokeAI](https://github.com/invoke-ai/InvokeAI) [Prompting Features](https://invoke-ai.github.io/InvokeAI/features/PROMPTS/)
 1. **[Negative and Unconditioned Prompts](https://invoke-ai.github.io/InvokeAI/features/PROMPTS/#negative-and-unconditioned-prompts).** <br>
