@@ -1,0 +1,15 @@
+# This file describes the alternative machine learning modelsv1
+# available to InvokeAI script.
+#
+# To add a new model, follow the examples below. Each
+# model requires a model config file, a weights file,
+# and the width and height of the images it
+# was trained on.
+elyOrangemix:
+  weights: models/ldm/stable-diffusion-v1/ElyOrangeMix.ckpt
+  description: This is a merge model that improves on the Elysium_Anime_V2, where NSFW representation is not good. It can produce SFW, NSFW, and any other type of artwork, while retaining the Elysium's three-dimensional, thickly painted style.
+  config: configs/stable-diffusion/ElyOrangeMix_config.yaml
+  width: 512
+  height: 512
+  vae: models/ldm/stable-diffusion-v1/ElyOrangeMix_vae.pt
+  default: true
