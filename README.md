@@ -1,3 +1,5 @@
+# Do not use, nothing works 😨 16/01/23
+
 ### Google Colab for Invoke Ai, using the [Anything v3](https://huggingface.co/Linaqruf/anything-v3.0) model
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_anything_v3.ipynb)
 
