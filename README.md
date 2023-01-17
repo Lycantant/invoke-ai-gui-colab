@@ -1,4 +1,3 @@
-Signature test
 ### Google Colab for Invoke Ai, using the [Anything v3](https://huggingface.co/Linaqruf/anything-v3.0) model. Tested 17/01/2021
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_anything_v3.ipynb)
 
@@ -41,7 +40,7 @@ Signature test
 3. **[Prompt Blending](https://invoke-ai.github.io/InvokeAI/features/PROMPTS/#prompt-blending)** <br>
   You may blend together different sections of the prompt to explore the AI's latent semantic space and generate interesting (and often surprising!) variations. The syntax is:
   `blue sphere:0.25 red cube:0.75 hybrid`
-  This will tell the sampler to blend 25% of the concept of a blue sphere with 75% of the concept of a red cube. The blend weights can use any combination of integers and floating point numbers, and they do not need to add up to 1. Everything to the left of the `:XX` up to the previous `:XX` is used for merging, so the overall effect is:
+  This will tell the sampler to blend 25% of the concept of a blue sphere with 75% of the concept of a red cube. The blend weights can use any combination of integers and floating point numbers, and they do not need to add up to 1. Everything to the left of the `:XX` up to the previous `:XX` is used for merging, so the overall effect is: <br>
   `0.25 * "blue sphere" + 0.75 * "white duck" + hybrid`
 
 For the rest please read yourself in the official documentation.
