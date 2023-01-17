@@ -1,3 +1,4 @@
+Signature test
 ### Google Colab for Invoke Ai, using the [Anything v3](https://huggingface.co/Linaqruf/anything-v3.0) model. Tested 17/01/2021
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Lycantant/invoke-ai-gui-colab/blob/main/notebooks/invoke_ai_gui_colab_anything_v3.ipynb)
 
