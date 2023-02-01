@@ -22,4 +22,8 @@ To use it in the negative prompt: `ngdn2T`, `ngdn4T`, `ngdn16T`, `ngdn32T`, `ngd
 #### These embeds come in many variants, so just pick one, or you can experiment with them to see which works best for you.
 To use it in the negative prompt: `unsh-16v`, `unsh-24v`, `unsh-32v`, `unsh-48v`, `unsh-64v`, `unsh-composition`, or `unsh-composition-4v`
 
+### [Other variants](https://civitai.com/models/3850)
+#### I don't know who owns it, i got it here https://civitai.com/models/3850, just try it yourself.
+To use it in the negative prompt: `bad_quality`, `bad-hands-5`, `NegLowRes-2400`, `vile_prompt3`, or `bad-image-v2-39000`
+
 ## Please visit the links above to see examples and how they work.
